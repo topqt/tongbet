@@ -1,0 +1,252 @@
+
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    background-position: 0 -10px;
+    background-color: #e4ebf3;
+    font: normal 12px Arial, Tahoma, Verdana;
+    line-height: 18px;
+}
+.tatol_main{
+    position: relative;
+    float: left;
+    width: 100%;
+    min-width: 990px;
+}
+.tatol_body{
+    position: relative;
+    width: 990px;
+}
+.tatol_container{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.tatol_header{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+}
+#logo{
+    width: 100px;
+    position: relative;
+    float: left;
+    margin-left: 0px;
+    outline: 0;
+    cursor: pointer;
+}
+#bannertop{
+    position: relative;
+    float: right;
+    margin-top: 45px;
+    color: #ed0000;
+}
+/*menumain*/                
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 0000a3;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 20px;
+    width: 100%;
+    font-size: 17px;
+}
+                              
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+    }
+                              
+li:last-child {
+    border-right: none;
+    }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgba(15, 28, 214, 0.774);
+    }
+                              
+                      
+
+/*Điều khoản*/
+#Dieukhoan {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 47px;
+    color: #7f0000;
+    
+}
+/*anh chuyển động*/
+.total_content{
+    position: relative;
+    float: left;
+    width: 950px;
+    padding: 20px 20px 20px 20px;   
+}
+.conp_b1 {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 500px;
+}
+.homeban {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.homeban .main {
+    width: 710px;
+}
+.homeban div {
+    position: relative;
+    float: left;
+}
+#container {
+    width: 710px;
+    height: 310px;
+    position: absolute;
+}
+#container .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 710px;
+    height: 310px;
+}
+.dieuhuong{
+    position: absolute;
+    color: red;
+    font-size: 100px;
+    top: 48%;
+    padding-left: 15px;
+}
+.dieuhuong i:last-child{
+    position: relative;
+    left: 20px;
+}
+#prev{
+    text-transform: uppercase;
+    top: 130px;
+    left: 20px;
+    position: absolute;
+}
+#next{
+    text-transform: uppercase;
+    top: 130px;
+    left: 20px;
+    position: absolute;
+}
+/*Dnag nhap*/
+.homeban .thongtin {
+    float: right;
+    width: 230px;
+}
+.homeban div {
+    position: relative;
+    float: left;
+}
+.homeban .subi .DN2 {
+    margin-bottom: 10px;
+}
+
+/*Dnag ky*/
+
+.homeban .subi .DK2 {
+    margin-bottom: 10px;
+}
+.homeban div {
+    position: relative;
+    float: left;
+}
+/*Các thẻ tín dụng*/
+.banklist{
+    width: 100%;
+    text-align: center;
+}
+.banklist img {
+    border: 0;
+    margin: 5px 10px;
+    max-height: 20px;
+}
+/*các link xem bóng */
+.homeban .linkbong {
+    float: right;
+    width: 230px;
+}
+.linksexternal {
+    width: 100%;
+    font-size: 5px;
+}
+.home{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: 0000a3;
+        position: -webkit-sticky; 
+        position: sticky;
+        top: 20px;
+        width: 100%;
+        font-size: 17px;
+    }
+}
+/*Phan cuối*/
+.footerbox {
+    position: relative;
+    float: left;
+    width: 928px;
+    background-color: #f4f8fb;
+    border: 1px solid #e0e8f0;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    line-height: normal;
+}
+.footerbox .ffirst {
+    margin-left: 0;
+}
+.footerbox .fbox {
+    width: 190px;
+    margin: 0 10px;
+}
+.footerbox div {
+    position: relative;
+    float: left;
+}
+.footerbox .ftit {
+    width: 100%;
+    border-bottom: 1px solid #e0e8f0;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font: bold 11px Tahoma, Arial, Verdana;
+    text-transform: uppercase;
+    color: #01122b;
+}
+.footerbox .fdes {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 10px;
+    text-align: justify;
+}
+.footerbox div {
+    position: relative;
+    float: left;
+}
+
+
+
+
